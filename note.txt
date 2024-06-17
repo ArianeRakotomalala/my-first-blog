@@ -1,0 +1,26 @@
+-micreer
+micreer dossier pour le projet
+environnement virtuel
+activena lay environemment : 
+asina anle requiremments.txt
+etc...
+
+
+creation projet : 
+(myvenv) C:\Users\Name\djangogirls> django-admin.exe startproject mysite .
+mysite : anaranle projet
+
+djangogirls
+├── manage.py manage.py est un script qui aide à gérer ou maintenir le site. Entre autres, il permet notamment de lancer un serveur web sur notre ordinateur sans rien installer d'autre.
+├── mysite (ilay site)
+│   ├── __init__.py
+│   ├── settings.py contient la configuration de votre site web.
+│   ├── urls.py
+│   └── wsgi.py
+├── myvenv
+│   └── ...
+└── requirements.txt
+
+le setting.py : misy configurations anle site rehetra anle site 
+python manage.py migrate : CREATION BASE DE DONNEE (MILA AO AMIN'ILAY dossier nicreena anle projet.)
+Lancer le serveur : python manage.py runserver
